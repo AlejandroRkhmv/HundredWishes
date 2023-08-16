@@ -10,7 +10,7 @@
 		211C98832A59D57900319AA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C98822A59D57900319AA4 /* AppDelegate.swift */; };
 		211C98852A59D57900319AA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C98842A59D57900319AA4 /* SceneDelegate.swift */; };
 		211C98872A59D57900319AA4 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C98862A59D57900319AA4 /* StartViewController.swift */; };
-		211C988D2A59D57900319AA4 /* HundredWishes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 211C988B2A59D57900319AA4 /* HundredWishes.xcdatamodeld */; };
+		211C988D2A59D57900319AA4 /* HundreedWishes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 211C988B2A59D57900319AA4 /* HundreedWishes.xcdatamodeld */; };
 		211C988F2A59D57900319AA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 211C988E2A59D57900319AA4 /* Assets.xcassets */; };
 		211C98922A59D57900319AA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 211C98902A59D57900319AA4 /* LaunchScreen.storyboard */; };
 		211C989D2A59D57A00319AA4 /* HundreedWishesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211C989C2A59D57A00319AA4 /* HundreedWishesTests.swift */; };
@@ -152,7 +152,7 @@
 				211C988E2A59D57900319AA4 /* Assets.xcassets */,
 				211C98902A59D57900319AA4 /* LaunchScreen.storyboard */,
 				211C98932A59D57900319AA4 /* Info.plist */,
-				211C988B2A59D57900319AA4 /* HundredWishes.xcdatamodeld */,
+				211C988B2A59D57900319AA4 /* HundreedWishes.xcdatamodeld */,
 			);
 			path = HundredWishes;
 			sourceTree = "<group>";
@@ -375,7 +375,7 @@
 				211C98BD2A5A100500319AA4 /* Builder.swift in Sources */,
 				2127745E2A8663260006EB8E /* ImageSaver.swift in Sources */,
 				21D1CCA82A5C08A700374384 /* NewWishPresenter.swift in Sources */,
-				211C988D2A59D57900319AA4 /* HundredWishes.xcdatamodeld in Sources */,
+				211C988D2A59D57900319AA4 /* HundreedWishes.xcdatamodeld in Sources */,
 				216054122A5B36DF0000A127 /* WishesType.swift in Sources */,
 				21D1CCAA2A5C08DF00374384 /* WishModel.swift in Sources */,
 				211C98832A59D57900319AA4 /* AppDelegate.swift in Sources */,
@@ -559,14 +559,15 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow saving wishes to the photo gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlejandroRkhmv.HundredWishes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -591,14 +592,15 @@
 				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow saving wishes to the photo gallery";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AlejandroRkhmv.HundredWishes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -728,13 +730,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		211C988B2A59D57900319AA4 /* HundredWishes.xcdatamodeld */ = {
+		211C988B2A59D57900319AA4 /* HundreedWishes.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				211C988C2A59D57900319AA4 /* HundreedWishes.xcdatamodel */,
 			);
 			currentVersion = 211C988C2A59D57900319AA4 /* HundreedWishes.xcdatamodel */;
-			path = HundredWishes.xcdatamodeld;
+			path = HundreedWishes.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
